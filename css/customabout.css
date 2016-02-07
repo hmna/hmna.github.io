@@ -9,6 +9,7 @@ body{
 	text-align: center;
 	color: #3B3A36;
 	background-color: white;
+	padding: 40px;
 }
 
 .jumbotron h1{
@@ -17,9 +18,15 @@ body{
 }
 
 .jumbotron p{
-	margin: 20px 300px;
 	font-size: 16px;
 	font-weight: 100;
+	padding: 0px 350px;
+}
+
+@media (max-width: 978px){
+	.jumbotron p{
+	padding: 10px 0;
+	} 
 }
 
 .btn-lg{
