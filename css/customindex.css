@@ -8,7 +8,12 @@
 	font-family: 'Arvo', courier, serif;
 	color: #3B3A36;
 	text-shadow: none;
-	margin: 0px auto 50px auto;
+	padding-top: 10px;
+	margin: 0px auto 40px auto;
+}
+
+.fa-stack{
+	padding-top: 5px;
 }
 
 .carousel-caption h1{
@@ -17,7 +22,6 @@
 
 .carousel-caption p{
 	font-size: 18px;
-	padding: 20px auto;
 }
 
 .btn-lg {
@@ -29,9 +33,15 @@ body{
 }
 
 #midsection{
-	margin: 40px auto auto auto;
+	margin: 40px auto 80px auto;
 }
 
-#first-slide{
-	
+.featurette-divider{
+	margin: 0;
+}
+
+#sockdodge{
+	padding: 80px auto;
+	background-color: #f0AD4E;
+	color: white;
 }
