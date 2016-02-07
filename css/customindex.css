@@ -41,7 +41,7 @@ body{
 }
 
 #sockdodge{
-	padding: 80px auto;
-	background-color: #f0AD4E;
-	color: white;
+	padding-top padding-bottom: 80px 80px;
+	background-image: url(../images/first-slide.png);
+	color: #3B3A36;
 }
