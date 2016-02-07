@@ -45,3 +45,11 @@ body{
 	background-image: url(../images/first-slide.png);
 	color: #3B3A36;
 }
+
+a {
+	color: #f0ad4e;
+}
+
+a:hover{
+	color: #ec971f;
+}
