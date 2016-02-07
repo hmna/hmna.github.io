@@ -8,7 +8,7 @@
 	font-family: 'Arvo', courier, serif;
 	color: #3B3A36;
 	text-shadow: none;
-	margin: 10px auto 40px auto;
+	margin: 0px auto 50px auto;
 }
 
 .carousel-caption h1{
@@ -17,7 +17,11 @@
 
 .carousel-caption p{
 	font-size: 18px;
-	padding: 20px 80px;
+	padding: 20px auto;
+}
+
+.btn-lg {
+	margin-bottom: 2px;
 }
 
 body{
