@@ -40,10 +40,13 @@ body{
 	margin: 0;
 }
 
-#sockdodge{
+.featurette{
 	padding-top padding-bottom: 80px 80px;
-	background-image: url(../images/first-slide.png);
 	color: #3B3A36;
+}
+
+#sockdodge,#memoir{	
+	background-image: url(../images/first-slide.png);
 }
 
 a {
