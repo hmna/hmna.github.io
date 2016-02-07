@@ -7,10 +7,25 @@
 .carousel-caption{
 	font-family: 'Arvo', courier, serif;
 	color: #3B3A36;
+	text-shadow: none;
+	margin: 10px 30px 40px 30px;
+}
+
+.carousel-caption h1{
+	font-size: 25px;
+}
+
+.carousel-caption p{
+	font-size: 18px;
+	padding: 20px 80px;
 }
 
 body{
 	font-family: 'Arvo', courier, serif;
+}
+
+#midsection{
+	margin: 40px auto auto auto;
 }
 
 #first-slide{
