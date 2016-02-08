@@ -1,0 +1,14 @@
+body{
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#midsection,#midsection3{
+	margin: 40px auto;
+	background-image: url(../images/first-slide.png);
+}
+
+#midsection2{
+	margin: 40px auto;
+	background-color: white;
+}
