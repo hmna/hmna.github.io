@@ -38,6 +38,10 @@
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     }
 
-    .second-hand, .second-hand2, .second-hand3 {
+    .min-hand {
+      background: grey;
+    }
+
+    .second-hand {
       height: 2px;
     }
