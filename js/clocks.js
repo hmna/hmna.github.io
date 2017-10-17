@@ -20,7 +20,7 @@ function transformHand(city, offset) {
 function setDate() {
   
   //current location date
-  const now = new Date();
+  var now = new Date();
 
   //convert to UTC milliseconds
   var utc = now.getTime() + (now.getTimezoneOffset() * 60000); 
