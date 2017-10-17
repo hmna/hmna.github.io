@@ -3,6 +3,7 @@ $.getScript("http://www.cornify.com/js/cornify.js", function()
 {
     const typing = [];
 	const secret = 'htut';
+	conify_count = 0;
 
 	window.addEventListener('keyup', (e) => {
 	  //console.log(e.key);
