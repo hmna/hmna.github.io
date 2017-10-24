@@ -1,0 +1,88 @@
+.tile {
+    width: 16px;
+    height: 16px;
+    float: left;
+    background-image: url("../images/games/minesweeper/clear.png");
+}
+
+.disable_clicks {
+    pointer-events:none
+}
+
+.lose {
+    color: #D42A2C;
+}
+
+.win {
+    color: #00CBFF;
+}
+
+.normal_tile {
+    background-image: url("../images/games/minesweeper/hidden.png");
+}
+
+.flag {
+    background-image: url("../images/games/minesweeper/flag.png");
+}
+
+.mine {
+    background-image: url("../images/games/minesweeper/mine.png");
+}
+.mine_hit {
+    background-image: url("../images/games/minesweeper/mine_hit.png");
+}
+.mine_marked {
+    background-image: url("../images/games/minesweeper/mine_marked.png");
+}
+
+.tile_1 {
+    background-image: url("../images/games/minesweeper/tile_1.png");
+}
+.tile_2 {
+    background-image: url("../images/games/minesweeper/tile_2.png");
+}
+.tile_3 {
+    background-image: url("../images/games/minesweeper/tile_3.png");
+}
+.tile_4 {
+    background-image: url("../images/games/minesweeper/tile_4.png");
+}
+.tile_5 {
+    background-image: url("../images/games/minesweeper/tile_5.png");
+}
+.tile_6 {
+    background-image: url("../images/games/minesweeper/tile_6.png");
+}
+.tile_7 {
+    background-image: url("../images/games/minesweeper/tile_7.png");
+}
+.tile_8 {
+    background-image: url("../images/games/minesweeper/tile_8.png");
+}
+
+.smiley {
+    margin:auto;
+    width: 26px;
+    height: 26px;
+    background-image: url("../images/games/minesweeper/face_up.png");
+}
+.face_down {
+    background-image: url("../images/games/minesweeper/face_down.png");
+}
+.face_limbo {
+    background-image: url("../images/games/minesweeper/face_limbo.png");
+}
+.face_lose {
+    background-image: url("../images/games/minesweeper/face_lose.png");
+}
+.face_win {
+    background-image: url("../images/games/minesweeper/face_win.png");
+}
+
+h1 {
+    text-align: center;
+}
+div {
+    margin:auto;
+    text-align: center;
+}

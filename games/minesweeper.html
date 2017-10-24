@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../images/favicon.ico">
+
+    <title>Sock Dodge</title>
+
+    <!-- Google Font and Font Awesome -->
+    <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../css/bug-fixes/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+
+    <link href="../css/carousel.css" rel="stylesheet">
+    <link href="../css/customindex.css" rel="stylesheet">
+    <link href="../css/customabout.css" rel="stylesheet">
+    <link href="../css/customminesweeper.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+<body>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" id="navbar-main" href="../index.html">HTUT M. AUNG</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../about.html">ABOUT</a></li>
+                    <li><a href="../work.html">WORK</a></li>
+                    <li><a href="http://goo.gl/forms/zRspl28TfA" target="_blank">CONTACT</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->      
+        </nav>
+
+        <h1> Pupsweeper </h1>
+
+        <div>
+            <select id="difficulty" onchange="setDifficulty();">
+               <option value="0">Easy</option>
+               <option value="1">Medium</option>
+               <option value="2">Hard</option>
+            </select>
+            
+            <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+            <span>Remaining Pups:</span>
+            <span id="flagCount" > </span>
+            <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+            <span>Time:</span>
+            <span id="timer" > </span>
+            <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+            <span id="revealedCount" ></span>
+        </div>
+        
+        <div id="smiley" class="smiley" onmousedown="smileyDown();" onmouseup="smileyUp();" onclick="startGame();"></div>
+        <div class = jumbotron>
+        <div id="minefield"></div>
+        <div id="message"></div>
+        </div>
+        <!-- FOOTER -->
+        <footer>
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2016 HTUT M. AUNG. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../js/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../js/minesweeper.js"></script>
+
+</body>
+</html>
